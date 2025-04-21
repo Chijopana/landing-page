@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #1f2937;
+  }
+  
+  header {
+    background-color: #1f2937;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+  }
+  
+  .hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 100px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .hero .left {
+    max-width: 500px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .hero .right img {
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  .features {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .feature-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    max-width: 200px;
+  }
+  
+  .feature img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .feature p {
+    color: #1f2937;
+    font-size: 16px;
+  }
+  
+
+  .quote {
+    background-color: #e5e7eb;
+    padding: 80px 60px;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    color: #1f2937;
+  }
+  
+  .quote-author {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+ 
+  .call-to-action {
+    background-color: #3882f6;
+    color: white;
+    margin: 60px;
+    border-radius: 12px;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .call-to-action h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .call-to-action p {
+    font-size: 16px;
+  }
+  
+  .call-to-action button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+
+  footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+  }
+  
