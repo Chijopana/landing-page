@@ -42,6 +42,13 @@
     align-items: center;
     gap: 40px;
   }
+
+  .hero-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
   
   .hero .left {
     max-width: 500px;
@@ -76,6 +83,15 @@
   .features {
     padding: 60px;
     text-align: center;
+  }
+
+  .feature-grid{
+    color: #f9faf8;
+    padding: 100px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
   }
   
   .features h2 {
